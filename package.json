@@ -1,0 +1,37 @@
+{
+  "name": "bbj.systems",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbjansen/bbj.systems.git"
+  },
+  "license": "LGPL-3.0-or-later",
+  "homepage": "https://bbj.systems",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.10.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/aos": "^3.0.7",
+    "@types/three": "^0.159.0",
+    "daisyui": "^4.4.20",
+    "nuxt": "^3.8.2",
+    "nuxt-headlessui": "^1.1.4",
+    "rimraf": "^5.0.5",
+    "vue": "^3.3.12",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@tresjs/cientos": "^3.7.0",
+    "@tresjs/nuxt": "^2.0.1",
+    "@tresjs/post-processing": "^0.7.0",
+    "aos": "^2.3.4"
+  }
+}
