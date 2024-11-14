@@ -64,7 +64,7 @@ export default function Home() {
               <span className="sr-only">Email</span>
             </a>
             <a
-              href="https://www.linkedin.com/company/bbj-systems/"
+              href="https://www.linkedin.com/in/bbjansen/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-110 transform hover:-translate-y-1"
